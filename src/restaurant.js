@@ -49,7 +49,7 @@ function createNav() {
   const contactButton = document.createElement("button");
   contactButton.classList.add("button-nav");
   contactButton.textContent = "home";
-  drinksButton.addEventListener("click", (e) => {
+  contactButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
     steActiveButton(drinksButton);
     loadDrinks();
