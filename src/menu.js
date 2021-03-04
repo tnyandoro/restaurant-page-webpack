@@ -58,9 +58,14 @@ function createMenu() {
   );
   menu.appendChild(
     createMenuItem(
-      "MEZE",
-      "Hummus with Spicy Lamb Mince With pine kernels and served with pita bread"
+      "CHOCOLATE TAHINA & HALVA BROWNIE",
+      "Dark chocolate brownie with tahina marbling and halva chunks. Served with ice cream."
     )
   );
-  
+  return menu;
+}
+
+function createMenuItem(name, details) {
+  const MenuItem = document.createElement("div");
+  MenuItem.classList.add("menu -item");
 }
