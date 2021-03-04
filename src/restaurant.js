@@ -87,5 +87,8 @@ function createHead() {
 function createFooter() {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
+
+  const copyright = document.createElement("p");
+  copyright.textContent = "Copyright © 2021 KAICOCO"
 }
 
