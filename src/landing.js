@@ -1,9 +1,8 @@
-import { wizard } from './wizard'
-import { barbarian } from './barbarian'
+function createLanding() {
+  const landing = document.createElement("div");
+  landing.classList.add("landing");
 
-function getClasses() {
-  console.log(wizard);
-  console.log(barbarian);
+  const logoImage = document.createElement("img");
+  logoImage.src = "image/logo.png";
+  logoImage.alt = "KAICO";
 }
-
-export default getClasses;
