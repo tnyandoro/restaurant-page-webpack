@@ -34,26 +34,26 @@ function createMenu() {
   );
   menu.appendChild(
     createMenuItem(
-      "MEZE",
-      "Hummus with Spicy Lamb Mince With pine kernels and served with pita bread"
+      "WRAPS NAPA",
+      "Choose *meat, roasted brinjal, tahina, tomato & red onion"
     )
   );
   menu.appendChild(
     createMenuItem(
-      "MEZE",
-      "Hummus with Spicy Lamb Mince With pine kernels and served with pita bread"
+      "MEAT (KREAS)",
+      "Skinny Pork Chops *meat, roasted brinjal,red onion rings"
     )
   );
   menu.appendChild(
     createMenuItem(
-      "MEZE",
-      "Hummus with Spicy Lamb Mince With pine kernels and served with pita bread"
+      "CHICKEN (KOTA)",
+      "10 Piece chicken. Drumsticks and thighs coal-grilled with olive oil, oregano and fresh lemon. Served with chips"
     )
   );
   menu.appendChild(
     createMenuItem(
-      "MEZE",
-      "Hummus with Spicy Lamb Mince With pine kernels and served with pita bread"
+      "SEAFOOD (THALASSINA)",
+      "Prawn and Calamari Combo 4 King prawns and 135g fried calamari with lemon butter and crispy potato chips."
     )
   );
   menu.appendChild(
