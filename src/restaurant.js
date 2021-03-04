@@ -51,8 +51,8 @@ function createNav() {
   contactButton.textContent = "home";
   contactButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
-    steActiveButton(drinksButton);
-    loadDrinks();
+    steActiveButton(contactButton);
+    loadContact();
   });
 }
 
