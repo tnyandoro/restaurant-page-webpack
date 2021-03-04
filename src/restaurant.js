@@ -17,7 +17,16 @@ function createHeader() {
 }
 
 function createNav() {
-  
+  const nav = document.createElement("nav");
+// use a callback
+  const indexButton = document.createElement("button");
+  indexButton.classList.add("button-nav");
+  indexButton.textContent = "home";
+  indexButton.addEventListener("click", (e) => {
+    if (e.target.classList.contains("active")) return;
+    steActiveButton(indexButton);
+    loadLanding();
+  })
 }
 
 
