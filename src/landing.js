@@ -6,6 +6,25 @@ function createLanding() {
   logoImage.src = "image/logo.png";
   logoImage.alt = "KAICO";
 
+  landing.appendChild(logoImage);
   landing.appendChild(createParagraph("A fusion of Greek Flavours, tradition and home based generosity"));
-  landing.appendChild(createParagraph("A fusion of Greek Flavours, tradition and home based generosity"));
+  landing.appendChild(createParagraph("Greek Flavours delivered straight to your doorstep"));
+  landing.appendChild(createParagraph("Greek Flavours delivered straight to your doorstep"));
+
+  return landing;
 }
+
+function createParagraph(text) {
+  const Paragraph = document.createElement("p");
+  Paragraph.textContent = text;
+
+  return Paragraph;  
+}
+
+function loadLanding() {
+  const head = document.querySelector("#head");
+  head.textContent = "";
+  head.appendChild(createLanding());
+}
+
+export default loadLanding;

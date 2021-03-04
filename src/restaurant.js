@@ -1,1 +1,0 @@
-export const barbarian = "Lets go now and change and cook";
