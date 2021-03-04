@@ -68,4 +68,20 @@ function createMenu() {
 function createMenuItem(name, details) {
   const MenuItem = document.createElement("div");
   MenuItem.classList.add("menu -item");
+
+  const foodName = document.createElement("h2");
+  foodName.textContent = name;
+
+  const foodDetails = document.createElement("p");
+  foodDetails = textContent = details;
+
+  const foodImage = document.createElement("img");
+  foodImage.src = `images/${name.toUpperCase()}.jpg`;
+  foodImage.alt = `${name}`;
+
+  MenuItem.appendChild(foodImage);
+  MenuItem.appendChild(foodName);
+  MenuItem.appendChild(foodDetails);
+
+  return MenuItem;
 }
