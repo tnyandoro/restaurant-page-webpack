@@ -1,0 +1,1 @@
+import initializeRestaurant from "./restaurant";
