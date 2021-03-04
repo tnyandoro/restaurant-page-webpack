@@ -7,5 +7,13 @@ function createHeader() {
   header.classList.add("header");
 
   const placeName = document.createElement("h1");
-  
+  placeName.classList.add("Place-Name");
+  placeName.textContent = "KaiCoco";
+
+  header.appendChild(placeName);
+  header.appendChild(createNav());
+
+  return header;
 }
+
+
