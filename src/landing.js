@@ -5,4 +5,7 @@ function createLanding() {
   const logoImage = document.createElement("img");
   logoImage.src = "image/logo.png";
   logoImage.alt = "KAICO";
+
+  landing.appendChild(createParagraph("A fusion of Greek Flavours, tradition and home based generosity"));
+  landing.appendChild(createParagraph("A fusion of Greek Flavours, tradition and home based generosity"));
 }
