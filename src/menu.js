@@ -85,3 +85,11 @@ function createMenuItem(name, details) {
 
   return MenuItem;
 }
+
+function loadMenu() {
+  const head = document.querySelector("#head");
+  head.textContent = "";
+  head.appendChild(createMenu());
+}
+
+export default loadMenu;
