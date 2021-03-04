@@ -5,4 +5,7 @@ import loadContact from './contact'
 function createHeader() {
   const header = document.createElement("header");
   header.classList.add("header");
+
+  const placeName = document.createElement("h1");
+  
 }
