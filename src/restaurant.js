@@ -26,7 +26,34 @@ function createNav() {
     if (e.target.classList.contains("active")) return;
     steActiveButton(indexButton);
     loadLanding();
-  })
+  });
+
+  const menuButton = document.createElement("button");
+  menuButton.classList.add("button-nav");
+  menuButton.textContent = "home";
+  menuButton.addEventListener("click", (e) => {
+    if (e.target.classList.contains("active")) return;
+    steActiveButton(menuButton);
+    loadMenu();
+  });
+
+  const drinksButton = document.createElement("button");
+  drinksButton.classList.add("button-nav");
+  drinksButton.textContent = "home";
+  drinksButton.addEventListener("click", (e) => {
+    if (e.target.classList.contains("active")) return;
+    steActiveButton(drinksButton);
+    loadDrinks();
+  });
+
+  const contactButton = document.createElement("button");
+  contactButton.classList.add("button-nav");
+  contactButton.textContent = "home";
+  drinksButton.addEventListener("click", (e) => {
+    if (e.target.classList.contains("active")) return;
+    steActiveButton(drinksButton);
+    loadDrinks();
+  });
 }
 
 
