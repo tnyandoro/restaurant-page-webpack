@@ -90,5 +90,14 @@ function createFooter() {
 
   const copyright = document.createElement("p");
   copyright.textContent = "Copyright © 2021 KAICOCO"
+
+  footer.appendChild(copyright);
 }
 
+function loadRestaurant() {
+  const content = document.getElementById("content");
+
+  content.appendChild(createHeader());
+  content.appendChild(createHead());
+  content.appendChild(createFooter());
+}
