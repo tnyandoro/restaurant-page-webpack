@@ -1,1 +1,3 @@
-import initializeRestaurant from "./restaurant";
+import loadRestaurant from "./restaurant";
+
+loadRestaurant();
