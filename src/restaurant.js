@@ -54,6 +54,13 @@ function createNav() {
     steActiveButton(contactButton);
     loadContact();
   });
+
+  nav.appendChild(indexButton);
+  nav.appendChild(menuButton);
+  nav.appendChild(drinksButton);
+  nav.appendChild(contactButton);
+
+  return nav;
 }
 
 
