@@ -63,4 +63,29 @@ function createNav() {
   return nav;
 }
 
+function setActiveButton(button) {
+  const buttons = document.querySelectorAll(".button-nav");
+
+  buttons.forEach((button) => {
+    if (button !== this) {
+      button.classList.remove("active");
+    }
+  });
+
+  button.classList.add("active");
+  
+}
+
+function createHead() {
+  const head = document.createElement("head");
+  head.classList.add("head");
+  head.setAttribute("id", "head");
+  return head;
+  
+}
+
+function createFooter() {
+  const footer = document.createElement("footer");
+  footer.classList.add("footer");
+}
 
