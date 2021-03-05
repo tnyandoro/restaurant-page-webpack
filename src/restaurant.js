@@ -86,9 +86,7 @@ function createHead() {
   const head = document.createElement("head");
   head.classList.add("head");
   head.setAttribute("id", "head");
-
   return head;
-  
 }
 
 // create the footer 
