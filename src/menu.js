@@ -65,23 +65,23 @@ function createMenu() {
   return menu;
 }
 
-function createMenuItem(name, description) {
+function createMenuItem(name, details) {
   const menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
 
   const foodName = document.createElement("h2");
   foodName.textContent = name;
 
-  const foodDescription = document.createElement("p");
-  foodDescription.textContent = description;
+  const foodDetails = document.createElement("p");
+  foodDetails.textContent = details;
 
   const foodImage = document.createElement("img");
-  foodImage.src = `images/menu/${name.toLowerCase()}.png`;
+  foodImage.src = `images/menu/${name}.jpg`;
   foodImage.alt = `${name}`;
 
   menuItem.appendChild(foodImage);
   menuItem.appendChild(foodName);
-  menuItem.appendChild(foodDescription);
+  menuItem.appendChild(foodDetails);
 
   return menuItem;
 }
