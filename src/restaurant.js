@@ -32,7 +32,7 @@ indexButton.addEventListener("click", (e) => {
 // create the menu button
   const menuButton = document.createElement("button");
   menuButton.classList.add("button-nav");
-  menuButton.textContent = "menu";
+  menuButton.textContent = "Menu";
   menuButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
     setActiveButton(menuButton);
@@ -42,7 +42,7 @@ indexButton.addEventListener("click", (e) => {
   // create the drinks button
   const drinksButton = document.createElement("button");
   drinksButton.classList.add("button-nav");
-  drinksButton.textContent = "drinks";
+  drinksButton.textContent = "Drinks";
   drinksButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
     setActiveButton(drinksButton);
@@ -52,7 +52,7 @@ indexButton.addEventListener("click", (e) => {
   // create the  contact button
   const contactButton = document.createElement("button");
   contactButton.classList.add("button-nav");
-  contactButton.textContent = "contact";
+  contactButton.textContent = "Contact";
   contactButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
     setActiveButton(contactButton);

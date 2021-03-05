@@ -10,7 +10,7 @@ function createMenu() {
   );
   menu.appendChild(
     createMenuItem(
-      "dipneat",
+      "Dipneat",
       "Mini Trio of Dips Choice of 3 mini dips. Served with grissini bread."
     )
   );
@@ -65,23 +65,23 @@ function createMenu() {
   return menu;
 }
 
-function createMenuItem(name, details) {
+function createMenuItem(name, description) {
   const menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
 
   const foodName = document.createElement("h2");
   foodName.textContent = name;
 
-  const foodDetails = document.createElement("p");
-  foodDetails.textContent = details;
+  const foodDescription = document.createElement("p");
+  foodDescription.textContent = description;
 
   const foodImage = document.createElement("img");
-  foodImage.src = `images/${name.toLowerCase()}.jpg`;
+  foodImage.src = `images/menu/${name.toLowerCase()}.png`;
   foodImage.alt = `${name}`;
 
-  MenuItem.appendChild(foodImage);
-  MenuItem.appendChild(foodName);
-  MenuItem.appendChild(foodDetails);
+  menuItem.appendChild(foodImage);
+  menuItem.appendChild(foodName);
+  menuItem.appendChild(foodDescription);
 
   return menuItem;
 }
