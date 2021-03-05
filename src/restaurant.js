@@ -1,8 +1,8 @@
-import loadLanding from './landing';
-import loadMenu from './menu';
-import loadContact from './contact'
+import loadLanding from "./landing";
+import loadMenu from "./menu";
+import loadContact from "./contact";
 
-const createHeader = () => {
+function createHeader() {
   const header = document.createElement("header");
   header.classList.add("header");
 
@@ -14,20 +14,20 @@ const createHeader = () => {
   header.appendChild(createNav());
 
   return header;
-};
+}
 
-const createNav = () => {
+function createNav() {
   const nav = document.createElement("nav");
 // use a callback
 // create the index button
-  const indexButton = document.createElement("button");
-  indexButton.classList.add("button-nav");
-  indexButton.textContent = "home";
-  indexButton.addEventListener("click", (e) => {
-    if (e.target.classList.contains("active")) return;
-    steActiveButton(indexButton);
-    loadLanding();
-  });
+const indexButton = document.createElement("button");
+indexButton.classList.add("button-nav");
+indexButton.textContent = "Home";
+indexButton.addEventListener("click", (e) => {
+  if (e.target.classList.contains("active")) return;
+  setActiveButton(indexButton);
+  loadLanding();
+});
 
 // create the menu button
   const menuButton = document.createElement("button");
@@ -35,7 +35,7 @@ const createNav = () => {
   menuButton.textContent = "menu";
   menuButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
-    steActiveButton(menuButton);
+    setActiveButton(menuButton);
     loadMenu();
   });
 
@@ -45,7 +45,7 @@ const createNav = () => {
   drinksButton.textContent = "drinks";
   drinksButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
-    steActiveButton(drinksButton);
+    setActiveButton(drinksButton);
     loadDrinks();
   });
 
@@ -55,7 +55,7 @@ const createNav = () => {
   contactButton.textContent = "contact";
   contactButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
-    steActiveButton(contactButton);
+    setActiveButton(contactButton);
     loadContact();
   });
 
@@ -65,7 +65,7 @@ const createNav = () => {
   nav.appendChild(contactButton);
 
   return nav;
-};
+}
 
 // set the active button 
 const setActiveButton = button => {
@@ -82,16 +82,17 @@ const setActiveButton = button => {
 };
 
 // set the head function
-const createHead = () => {
+function createHead() {
   const head = document.createElement("head");
   head.classList.add("head");
   head.setAttribute("id", "head");
+
   return head;
   
-};
+}
 
 // create the footer 
-const createFooter = () => {
+function createFooter() {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
 
@@ -99,10 +100,12 @@ const createFooter = () => {
   copyright.textContent = "Copyright © 2021 KAICOCO"
 
   footer.appendChild(copyright);
-};
+
+  return footer;
+}
 
 // the restaurant function 
-const loadRestaurant = () => {
+function loadRestaurant() {
   const content = document.getElementById("content");
 
   content.appendChild(createHeader());
@@ -111,6 +114,6 @@ const loadRestaurant = () => {
 
   setActiveButton(document.querySelector(".button-nav"));
   loadLanding();
-};
+}
 
 export default loadRestaurant;

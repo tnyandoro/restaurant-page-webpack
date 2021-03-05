@@ -1,5 +1,3 @@
-import { ContextReplacementPlugin } from "webpack";
-
 function createContact() {
   const contact = document.createElement("div");
   contact.classList.add("contact");
@@ -9,5 +7,17 @@ function createContact() {
 
   const address = document.createElement("p");
   address.textContent = "Address: 39 Troupant Ave 2191, Magelissig, johannesburg, Gauteng, South Africa";
+
+  contact.appendChild(phoneNumber);
+  contact.appendChild(address);
+
+  return contact;
   
 }
+
+function loadContact() {
+  const head = document.getElementById("head");
+  head.textContent = "";
+  head.appendChild(createContact());
+}
+export default loadContact;

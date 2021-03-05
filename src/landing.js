@@ -15,14 +15,14 @@ function createLanding() {
 }
 
 function createParagraph(text) {
-  const Paragraph = document.createElement("p");
-  Paragraph.textContent = text;
+  const paragraph = document.createElement("p");
+  paragraph.textContent = text;
 
-  return Paragraph;  
+  return paragraph;  
 }
 
 function loadLanding() {
-  const head = document.querySelector("#head");
+  const head = document.getElementById("head");
   head.textContent = "";
   head.appendChild(createLanding());
 }
