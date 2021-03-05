@@ -103,15 +103,15 @@ function createFooter() {
 }
 
 // the restaurant function 
-function loadRestaurant() {
+function startWebsite() {
   const content = document.getElementById("content");
 
   content.appendChild(createHeader());
-  content.appendChild(createHead());
+  content.appendChild(createMain());
   content.appendChild(createFooter());
 
   setActiveButton(document.querySelector(".button-nav"));
   loadLanding();
 }
 
-export default loadRestaurant;
+export default startWebsite;

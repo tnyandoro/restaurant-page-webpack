@@ -4,25 +4,25 @@ function createMenu() {
 
   menu.appendChild(
     createMenuItem(
-      "MEZE",
+      "Meze",
       "Hummus with Spicy Lamb Mince With pine kernels and served with pita bread"
     )
   );
   menu.appendChild(
     createMenuItem(
-      "DIP & EAT",
+      "dipneat",
       "Mini Trio of Dips Choice of 3 mini dips. Served with grissini bread."
     )
   );
   menu.appendChild(
     createMenuItem(
-      "POTATO CHIPS",
+      "Potatochips",
       "Family Size Potato Chips"
     )
   );
   menu.appendChild(
     createMenuItem(
-      "VILLAGE GREEK ",
+      "Greeksalad",
       "Tomatoes, cucumber, red onion, olives and feta."
     )
   );

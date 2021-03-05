@@ -1,3 +1,3 @@
-import loadRestaurant from "./restaurant";
+import startWebsite from "./restaurant";
 
-loadRestaurant();
+startWebsite();
