@@ -58,7 +58,7 @@ function createMenu() {
   );
   menu.appendChild(
     createMenuItem(
-      "CHOCOLATE TAHINA & HALVA BROWNIE",
+      "Chocobrownie",
       "Dark chocolate brownie with tahina marbling and halva chunks. Served with ice cream."
     )
   );
