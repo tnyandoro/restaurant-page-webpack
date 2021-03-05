@@ -28,31 +28,31 @@ function createMenu() {
   );
   menu.appendChild(
     createMenuItem(
-      "PLATED CHICKEN SOUVLAKI",
+      "Calamari",
       "3 Skewers served with chips, pita bread, chopped tomato, red onion and your choice of dip."
     )
   );
   menu.appendChild(
     createMenuItem(
-      "WRAPS NAPA",
+      "Pavlola",
       "Choose *meat, roasted brinjal, tahina, tomato & red onion"
     )
   );
   menu.appendChild(
     createMenuItem(
-      "MEAT (KREAS)",
+      "Meakreas",
       "Skinny Pork Chops *meat, roasted brinjal,red onion rings"
     )
   );
   menu.appendChild(
     createMenuItem(
-      "CHICKEN (KOTA)",
+      "chickenf",
       "10 Piece chicken. Drumsticks and thighs coal-grilled with olive oil, oregano and fresh lemon. Served with chips"
     )
   );
   menu.appendChild(
     createMenuItem(
-      "SEAFOOD (THALASSINA)",
+      "Hummus",
       "Prawn and Calamari Combo 4 King prawns and 135g fried calamari with lemon butter and crispy potato chips."
     )
   );
