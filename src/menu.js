@@ -22,7 +22,7 @@ function createMenu() {
   );
   menu.appendChild(
     createMenuItem(
-      "Greeksalad",
+      "Pavlova",
       "Tomatoes, cucumber, red onion, olives and feta."
     )
   );
@@ -53,7 +53,7 @@ function createMenuItem(name, description) {
   foodDescription.textContent = description;
 
   const foodImage = document.createElement("img");
-  foodImage.src = `images/menu/${name.toLowerCase()}.jpg`;
+  foodImage.src = `images/menu/${name.toLowerCase()}.png`;
   foodImage.alt = `${name}`;
 
   menuItem.appendChild(foodImage);

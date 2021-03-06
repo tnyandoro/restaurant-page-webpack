@@ -3,7 +3,7 @@ import loadMenu from "./menu";
 import loadDrinks from "./drinks";
 import loadContact from "./contact";
 
-function createHeader() {
+const createHeader = () => {
   const header = document.createElement("header");
   header.classList.add("header");
 
@@ -15,9 +15,9 @@ function createHeader() {
   header.appendChild(createNav());
 
   return header;
-}
+};
 
-function createNav() {
+const createNav = () => {
   const nav = document.createElement("nav");
 // use a callback
 // create the index button
@@ -66,7 +66,7 @@ const menuButton = document.createElement("button");
   nav.appendChild(contactButton);
 
   return nav;
-}
+};
 
 // set the active button 
 const setActiveButton = button => {
@@ -83,15 +83,15 @@ const setActiveButton = button => {
 };
 
 // set the head function
-function createPage() {
+const createPage = () => {
   const page = document.createElement("main");
   page.classList.add("main");
   page.setAttribute("id", "main");
   return page;
-}
+};
 
 // create the footer 
-function createFooter() {
+const createFooter = () => {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
 
@@ -111,10 +111,10 @@ function createFooter() {
   footer.appendChild(githubLink)
 
   return footer;
-}
+};
 
 // the restaurant function 
-function startWebsite() {
+const startWebsite = () => {
   const content = document.getElementById("content");
 
   content.appendChild(createHeader());
@@ -125,6 +125,6 @@ function startWebsite() {
   setActiveButton(document.querySelector(".button-nav"));
   loadLanding();
  
-}
+};
 
 export default startWebsite;

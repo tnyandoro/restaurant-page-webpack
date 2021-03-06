@@ -16,25 +16,25 @@ function createDrinks() {
   );
   drinks.appendChild(
     createDrinksItem(
-      "Coaktails",
+      "coak_tails",
       "Passon Fruit, Orange n Mango"
     )
   );
   drinks.appendChild(
     createDrinksItem(
-      "Lagers",
+      "lager",
       "Balck label, Heinken, Budbeer."
     )
   );
   drinks.appendChild(
     createDrinksItem(
-      "Winery",
+      "winery",
       "Sweet red, sweet white, Dry red, sweet red."
     )
   );  
   drinks.appendChild(
     createDrinksItem(
-      "Hot",
+      "hot",
       "Cappacino, Latte, Coffee, Tea, Hot Chocolate"
     )
   );
