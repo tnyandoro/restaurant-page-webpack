@@ -16,7 +16,7 @@ function createContact() {
 }
 
 function loadContact() {
-  const head = document.getElementById("head");
+  const head = document.getElementById("main");
   head.textContent = "";
   head.appendChild(createContact());
 }

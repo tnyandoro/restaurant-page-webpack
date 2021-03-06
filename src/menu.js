@@ -31,19 +31,7 @@ function createMenu() {
       "Calamari",
       "3 Skewers served with chips, pita bread, chopped tomato, red onion and your choice of dip."
     )
-  );
-  menu.appendChild(
-    createMenuItem(
-      "Pavlola",
-      "Choose *meat, roasted brinjal, tahina, tomato & red onion"
-    )
-  );
-  menu.appendChild(
-    createMenuItem(
-      "Meakreas",
-      "Skinny Pork Chops *meat, roasted brinjal,red onion rings"
-    )
-  );
+  );  
   menu.appendChild(
     createMenuItem(
       "chickenf",

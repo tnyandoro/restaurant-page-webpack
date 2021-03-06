@@ -1,5 +1,6 @@
 import loadLanding from "./landing";
 import loadMenu from "./menu";
+import loadDrinks from "./drinks";
 import loadContact from "./contact";
 
 function createHeader() {
