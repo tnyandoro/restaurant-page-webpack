@@ -1,4 +1,4 @@
-function createContact() {
+const createContact = () => {
   const contact = document.createElement("div");
   contact.classList.add("contact");
 
@@ -13,11 +13,12 @@ function createContact() {
 
   return contact;
   
-}
+};
 
-function loadContact() {
+const loadContact = () => {
   const head = document.getElementById("main");
   head.textContent = "";
   head.appendChild(createContact());
-}
+};
+
 export default loadContact;

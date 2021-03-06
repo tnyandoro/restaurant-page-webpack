@@ -1,4 +1,4 @@
-function createLanding() {
+const createLanding = () => {
   const landing = document.createElement("div");
   landing.classList.add("landing");
 
@@ -12,19 +12,19 @@ function createLanding() {
   landing.appendChild(createParagraph("Greek Flavours delivered straight to your doorstep"));
 
   return landing;
-}
+};
 
-function createParagraph(text) {
+const createParagraph = text => {
   const paragraph = document.createElement("p");
   paragraph.textContent = text;
 
   return paragraph;  
-}
+};
 
-function loadLanding() {
+const loadLanding = () => {
   const main = document.getElementById("main");
   main.textContent = "";
   main.appendChild(createLanding());
-}
+};
 
 export default loadLanding;

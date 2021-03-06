@@ -1,4 +1,4 @@
-function createMenu() {
+const createMenu = () => {
   const menu = document.createElement("div");
   menu.classList.add("menu");
 
@@ -40,9 +40,9 @@ function createMenu() {
   );
 
   return menu;
-}
+};
 
-function createMenuItem(name, description) {
+const createMenuItem = (name, description) => {
   const menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
 
@@ -61,12 +61,12 @@ function createMenuItem(name, description) {
   menuItem.appendChild(foodDescription);
 
   return menuItem;
-}
+};
 
-function loadMenu() {
+const loadMenu = () => {
   const main = document.getElementById("main");
   main.textContent = "";
   main.appendChild(createMenu());
-}
+};
 
 export default loadMenu;

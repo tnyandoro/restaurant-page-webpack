@@ -1,4 +1,4 @@
-function createDrinks() {
+const createDrinks = () => {
   const drinks = document.createElement("div");
   drinks.classList.add("drinks");
 
@@ -40,17 +40,17 @@ function createDrinks() {
   );
 
   return drinks;
-}
+};
 
-function createDrinksItem(name, description) {
+const createDrinksItem = (name, details) => {
   const drinksItem = document.createElement("div");
   drinksItem.classList.add("drinks-item");
 
   const drinksName = document.createElement("h2");
   drinksName.textContent = name;
 
-  const drinksDescription = document.createElement("p");
-  drinksDescription.textContent = description;
+  const drinksDetails = document.createElement("p");
+  drinksDetails.textContent = details;
 
   const drinksImage = document.createElement("img");
   drinksImage.src = `images/menu/${name.toLowerCase()}.jpg`;
@@ -58,15 +58,15 @@ function createDrinksItem(name, description) {
 
   drinksItem.appendChild(drinksImage);
   drinksItem.appendChild(drinksName);
-  drinksItem.appendChild(drinksDescription);
+  drinksItem.appendChild(drinksDetails);
 
   return drinksItem;
-}
+};
 
-function loadDrinks() {
+const loadDrinks = () => {
   const main = document.getElementById("main");
   main.textContent = "";
   main.appendChild(createDrinks());
-}
+};
 
 export default loadDrinks;
