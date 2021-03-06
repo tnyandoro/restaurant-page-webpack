@@ -131,10 +131,12 @@ button {
 
 .landing p {
   padding: 1rem;
+  background-color: rgb(31, 26, 1);
+  opacity: 50;
 }
 
 .landing img {
-  width: 50%;
+  width: 20%;
   margin-top: 3rem;
   margin-bottom: 3rem;
   opacity: 90%;

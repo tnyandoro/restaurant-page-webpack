@@ -3,7 +3,7 @@ function createLanding() {
   landing.classList.add("landing");
 
   const logoImage = document.createElement("img");
-  logoImage.src = "image/logo.png";
+  logoImage.src = "images/logo.png";
   logoImage.alt = "KAICO";
 
   landing.appendChild(logoImage);
@@ -22,9 +22,9 @@ function createParagraph(text) {
 }
 
 function loadLanding() {
-  const head = document.getElementById("head");
-  head.textContent = "";
-  head.appendChild(createLanding());
+  const page = document.getElementById("page");
+  page.textContent = "";
+  page.appendChild(createLanding());
 }
 
 export default loadLanding;

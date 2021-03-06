@@ -82,11 +82,11 @@ const setActiveButton = button => {
 };
 
 // set the head function
-function createHead() {
-  const head = document.createElement("head");
-  head.classList.add("head");
-  head.setAttribute("id", "head");
-  return head;
+function createPage() {
+  const page = document.createElement("page");
+  page.classList.add("page");
+  page.setAttribute("id", "page");
+  return page;
 }
 
 // create the footer 
@@ -97,7 +97,17 @@ function createFooter() {
   const copyright = document.createElement("p");
   copyright.textContent = "Copyright © 2021 KAICOCO"
 
+
+  const githubLink = document.createElement("a");
+  githubLink.href = "https://github.com/tnyandoro";
+
+  const githubIcon = document.createElement("i");
+  githubIcon.classList.add("fab");
+  githubIcon.classList.add("fa-github");
+
+   githubLink.appendChild(githubIcon);
   footer.appendChild(copyright);
+  footer.appendChild(githubLink)
 
   return footer;
 }
@@ -107,11 +117,13 @@ function startWebsite() {
   const content = document.getElementById("content");
 
   content.appendChild(createHeader());
-  content.appendChild(createMain());
+  content.appendChild(createPage());
   content.appendChild(createFooter());
 
+ 
   setActiveButton(document.querySelector(".button-nav"));
   loadLanding();
+ 
 }
 
 export default startWebsite;
