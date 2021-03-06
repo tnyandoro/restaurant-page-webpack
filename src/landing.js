@@ -22,9 +22,9 @@ function createParagraph(text) {
 }
 
 function loadLanding() {
-  const page = document.getElementById("page");
-  page.textContent = "";
-  page.appendChild(createLanding());
+  const main = document.getElementById("main");
+  main.textContent = "";
+  main.appendChild(createLanding());
 }
 
 export default loadLanding;

@@ -30,7 +30,7 @@ indexButton.addEventListener("click", (e) => {
 });
 
 // create the menu button
-  const menuButton = document.createElement("button");
+const menuButton = document.createElement("button");
   menuButton.classList.add("button-nav");
   menuButton.textContent = "Menu";
   menuButton.addEventListener("click", (e) => {
@@ -46,7 +46,7 @@ indexButton.addEventListener("click", (e) => {
   drinksButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
     setActiveButton(drinksButton);
-    loadDrinks();
+    loadMenu();
   });
 
   // create the  contact button
@@ -83,9 +83,9 @@ const setActiveButton = button => {
 
 // set the head function
 function createPage() {
-  const page = document.createElement("page");
-  page.classList.add("page");
-  page.setAttribute("id", "page");
+  const page = document.createElement("main");
+  page.classList.add("main");
+  page.setAttribute("id", "main");
   return page;
 }
 
