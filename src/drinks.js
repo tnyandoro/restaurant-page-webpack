@@ -10,7 +10,7 @@ function createDrinks() {
   );
   drinks.appendChild(
     createDrinksItem(
-      "Fizzy Drinks",
+      "fizzy_drinks",
       "Coke, Fantas, lemonade, Apple."
     )
   );
