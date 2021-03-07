@@ -47,7 +47,7 @@ const menuButton = document.createElement("button");
   drinksButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
     setActiveButton(drinksButton);
-    loadMenu();
+    loadDrinks();
   });
 
   // create the  contact button

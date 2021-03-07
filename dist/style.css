@@ -142,16 +142,16 @@ button {
   opacity: 90%;
 }
 
-/* Menu page */
+/* Menu and Drink page */
 
-.menu {
+.menu, .drinks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 4rem;
   animation: fadeIn 1.5s;
 }
 
-.menu-item {
+.menu-item, .drinks-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -163,19 +163,19 @@ button {
   transition: background-color 0.3s;
 }
 
-.menu-item:hover {
+.menu-item:hover,.drinks-item:hover {
   background-color: var(--background-light-hover);
 }
 
-.menu-item img {
+.menu-item img, .drinks-item img {
   width: 30%;
 }
 
-.menu-item h2 {
+.menu-item h2, .drinks-item h2 {
   padding: 2rem;
 }
 
-.menu-item p {
+.menu-item p, .drinks-item p {
   font-size: 1.5rem;
   text-align: center;
 }

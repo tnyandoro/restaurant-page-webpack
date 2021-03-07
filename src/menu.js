@@ -34,7 +34,7 @@ const createMenu = () => {
   );  
   menu.appendChild(
     createMenuItem(
-      "chickenf",
+      "Chicken_full",
       "10 Piece chicken. Drumsticks and thighs coal-grilled with olive oil, oregano and fresh lemon. Served with chips"
     )
   );
@@ -53,7 +53,7 @@ const createMenuItem = (name, description) => {
   foodDescription.textContent = description;
 
   const foodImage = document.createElement("img");
-  foodImage.src = `images/menu/${name.toLowerCase()}.png`;
+  foodImage.src = `images/menu/${name.toUpperCase()}.png`;
   foodImage.alt = `${name}`;
 
   menuItem.appendChild(foodImage);

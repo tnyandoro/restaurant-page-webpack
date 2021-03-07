@@ -4,7 +4,7 @@ const createDrinks = () => {
 
   drinks.appendChild(
     createDrinksItem(
-      "100% Fruit Drinks",
+      "fruit_drink",
       "Orange, PineApple, Mango, Pasion fruit, Apple"
     )
   );
@@ -53,7 +53,7 @@ const createDrinksItem = (name, details) => {
   drinksDetails.textContent = details;
 
   const drinksImage = document.createElement("img");
-  drinksImage.src = `images/menu/${name.toLowerCase()}.jpg`;
+  drinksImage.src = `images/drinks/${name.toLowerCase()}.jpg`;
   drinksImage.alt = `${name}`;
 
   drinksItem.appendChild(drinksImage);

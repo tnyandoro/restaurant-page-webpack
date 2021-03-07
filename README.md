@@ -22,7 +22,7 @@ This project is found on the following Repo [Restaurant](https://github.com/tnya
 
 ## Live Demo
 
-You can view the live demo of the project [Here!](http://tendainyandoro.me/restaurant-page-webpack/)
+You can view the live demo of the project [Here!](http://tendainyandoro.me/restaurant-page-webpack/dist/index.html/)
 
 ### Prerequisites
 
