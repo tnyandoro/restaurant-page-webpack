@@ -187,7 +187,11 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 3rem;
   animation: fadeIn 1.5s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em
 }
 
 .contact p {
