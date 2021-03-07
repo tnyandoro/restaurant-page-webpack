@@ -4,7 +4,7 @@ const createDrinks = () => {
 
   drinks.appendChild(
     createDrinksItem(
-      "fruit_drink",
+      "fruitdrink",
       "Orange, PineApple, Mango, Pasion fruit, Apple"
     )
   );

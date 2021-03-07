@@ -8,7 +8,7 @@ const createHeader = () => {
   header.classList.add("header");
 
   const placeName = document.createElement("h1");
-  placeName.classList.add("Place-Name");
+  placeName.classList.add("placeName");
   placeName.textContent = "KaiCoco";
 
   header.appendChild(placeName);
@@ -99,16 +99,16 @@ const createFooter = () => {
   copyright.textContent = "Copyright © 2021 KAICOCO"
 
 
-  const githubLink = document.createElement("a");
-  githubLink.href = "https://github.com/tnyandoro";
+  const linkedinLink = document.createElement("a");
+  linkedinLink.href = "https://www.linkedin.com/in/tendai-nyandoro/";
 
   const githubIcon = document.createElement("i");
   githubIcon.classList.add("fab");
-  githubIcon.classList.add("fa-github");
+  githubIcon.classList.add("fa-linkedin");
 
-   githubLink.appendChild(githubIcon);
+   linkedinLink.appendChild(githubIcon);
   footer.appendChild(copyright);
-  footer.appendChild(githubLink)
+  footer.appendChild(linkedinLink)
 
   return footer;
 };

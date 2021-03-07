@@ -4,7 +4,7 @@
   --border-color: #222;
   --background-light: rgba(0, 0, 0, 0.6);
   --background-light-hover: rgba(99, 99, 99, 0.4);
-  --background-dark: rgba(42, 28, 5, 0.9);
+  --background-dark: rgb(174,179,77);
 }
 
 /* General */
@@ -87,9 +87,9 @@ button {
 }
 
 .place-name {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-family: 'GFS Didot', serif;
-  font-size: 10rem;
+  font-size: 15em;
 }
 
 .button-nav {
