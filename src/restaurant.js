@@ -96,7 +96,7 @@ const createFooter = () => {
   footer.classList.add("footer");
 
   const copyright = document.createElement("p");
-  copyright.textContent = "Copyright © 2021 KAICOCO"
+  copyright.textContent = "Copyright © 2021 KAICOCO-FOODS"
 
 
   const linkedinLink = document.createElement("a");
