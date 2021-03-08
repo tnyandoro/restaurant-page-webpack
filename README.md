@@ -18,11 +18,11 @@
 
 ## Our Project
 
-This project is found on the following Repo [Restaurant](https://loving-sinoussi-4b12ea.netlify.app/)
+This project is found on the following Repo [Restaurant](https://github.com/tnyandoro/restaurant-page-webpack/tree/feature/webpage/)
 
 ## Live Demo
 
-You can view the live demo of the project [Here!](http://tendainyandoro.me/restaurant-page-webpack/dist/index.html/)
+You can view the live demo of the project [Here!](https://loving-sinoussi-4b12ea.netlify.app/)
 
 ### Prerequisites
 
