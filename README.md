@@ -28,7 +28,10 @@ You can view the live demo of the project [Here!](http://tendainyandoro.me/resta
 
 A Morden Browser
 
-
+### Setup
+- clone the project to your local machine
+- Run npm install
+- Type: npm run build
 ## Authors
 
 👤 **Tendai Nyandoro**
