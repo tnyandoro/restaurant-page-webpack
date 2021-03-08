@@ -13,7 +13,7 @@
 - HTML5
 - CSS3
 - Bootstrap
-- Bootswatch
+- Font Awesome
 - JavaScript
 
 ## Our Project

@@ -98,17 +98,11 @@ const createFooter = () => {
   const copyright = document.createElement("p");
   copyright.textContent = "Copyright © 2021 KAICOCO-FOODS"
 
+  
 
-  const linkedinLink = document.createElement("a");
-  linkedinLink.href = "https://www.linkedin.com/in/tendai-nyandoro/";
-
-  const githubIcon = document.createElement("i");
-  githubIcon.classList.add("fab");
-  githubIcon.classList.add("fa-linkedin");
-
-   linkedinLink.appendChild(githubIcon);
+  
   footer.appendChild(copyright);
-  footer.appendChild(linkedinLink)
+  
 
   return footer;
 };
