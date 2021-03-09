@@ -29,7 +29,9 @@ You can view the live demo of the project [Here!](https://loving-sinoussi-4b12ea
 A Morden Browser
 
 ### Setup
-- clone the project to your local machine
+- Go to [https://github.com/tnyandoro/restaurant-page-webpack/tree/feature/webpage]
+- Clone the project to your local machine
+- Cd into your directory
 - Run npm install
 - Type: npm run build
 ## Authors
