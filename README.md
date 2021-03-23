@@ -6,29 +6,34 @@
 
 |Main Project page
 
-|![Home Page]()
+|![Restaurant](https://user-images.githubusercontent.com/30318155/110389732-9c7a8d80-806d-11eb-9362-3f5e60bb299a.png)|
 
 ## Built With
 
 - HTML5
 - CSS3
 - Bootstrap
-- Bootswatch
+- Font Awesome
 - JavaScript
 
 ## Our Project
 
-This project is found on the following Repo [Restaurant](https://github.com/tnyandoro/restaurant-page-webpack/)
+This project is found on the following Repo [Restaurant](https://github.com/tnyandoro/restaurant-page-webpack/tree/feature/webpage/)
 
 ## Live Demo
 
-You can view the live demo of the project [Here!](http://tendainyandoro.me/restaurant-page-webpack/dist/index.html/)
+You can view the live demo of the project [Here!](https://loving-sinoussi-4b12ea.netlify.app/)
 
 ### Prerequisites
 
 A Morden Browser
 
-
+### Setup
+- Go to [https://github.com/tnyandoro/restaurant-page-webpack/tree/feature/webpage]
+- Clone the project to your local machine
+- Cd into your directory
+- Run npm install
+- Type: npm run build
 ## Authors
 
 👤 **Tendai Nyandoro**

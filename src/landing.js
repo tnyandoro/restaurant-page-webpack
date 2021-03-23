@@ -7,8 +7,8 @@ const createLanding = () => {
   logoImage.alt = "KAICO";
 
   landing.appendChild(logoImage);
-  landing.appendChild(createParagraph("A fusion of Greek Flavours, tradition and home based generosity"));
-  landing.appendChild(createParagraph("Greek Flavours delivered straight to your doorstep"));
+  landing.appendChild(createParagraph(`A fusion of Greek Flavours, tradition and home based generosity`));
+  landing.appendChild(createParagraph(`Cool Drinks Flavours delivered straight to your doorstep`));
   landing.appendChild(createParagraph("Greek Flavours delivered straight to your doorstep"));
 
   return landing;

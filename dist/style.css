@@ -26,7 +26,7 @@ body {
   font-family: 'GFS Didot', serif;
   font-size: 1.6rem;
   color: var(--font-color);
-  background-image: url("images/main-bg.jpg");
+  background-image: url("images/main-bg1.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
